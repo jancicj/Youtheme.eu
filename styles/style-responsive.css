@@ -1,0 +1,540 @@
+@media screen and (max-width: 1024px){
+    body{
+        overflow-x: hidden;
+    }
+    section{
+        background-image: none;
+    }
+    .cover-1 span{
+        font-size: 2.5rem;
+    }
+    .cover-1 h2{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    hr{
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+
+    header{
+        width: 100vw;
+    }
+    nav{
+        background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8));
+        justify-content: space-between;
+    }
+    .cover{
+        padding-bottom: 5%;
+        height: auto;
+    }
+    .nav-links{
+        height: 85vh;
+        top: 3.25rem;
+        border-radius: 0 0 0 1rem;
+    }
+    .logo {
+        
+        flex: 10;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        overflow: hidden;
+        padding-right: 2rem;
+    }
+    
+    #logo{
+        object-fit: cover;
+        height: 2rem;
+    }
+    #logoesc{
+        height: 2rem;
+    }
+    .burger{
+     flex: 2;
+    }
+    .button-a{
+        margin: 1rem 1rem;
+        float: none !important;
+        display: block;
+        font-size: 1.2rem !important;
+        width: 90%;
+        
+    }
+    
+    .cover-2{
+        padding: 5rem 0;
+    }
+    .cover-2 i{
+        margin-bottom: 5%;
+    }
+    section{
+        flex-direction: column;
+        text-align: center !important;
+    }
+    .left p{
+        text-align: justify;
+    }
+    
+    .right{
+        text-align: center;
+        margin: 2rem 0 -3rem 0;
+    }
+    .img1, .img2, .img3{
+        display: none;
+    }
+    #benefits{
+        text-align: left;
+    }
+    #donations-a{
+        width: 90%;
+    }
+    details > summary{
+        text-align: center;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 1rem;
+    }
+    footer{
+        width: 100vw;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 2rem;
+        padding-top: 25rem;
+        margin-top: -10rem;
+    }
+    .f1, .f2, .f4{
+        display: none;
+    }
+    .narrowTxt{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    /* PROJECTS SECTION */
+    .enesproject{
+        flex-direction: column;
+    }
+    .img-gallery p{
+        text-align: center;
+    }
+    .right video{
+        width: 100%;
+    }
+    .activity{
+        flex-direction: column;
+    }
+    .activity h3{
+        margin: 1rem 0 0 0;
+    }
+    .center2{
+        margin: -3rem 0 2rem 0;
+    }
+    .left2 h1{
+        font-size: 2rem;
+    }
+    .section2img{
+        border-radius: 0;
+        
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .right2{
+        order: 2;
+        margin-top: 12rem;
+        text-align: center;
+    }
+    .right2 a{
+        width: 90%;
+        left: 5%;
+    }
+    .img-gallery{
+        padding: 0;
+    }
+    .gallery img{
+        width: 100%;
+    }
+    .gallery{
+        flex-direction: column;
+    }
+    .imgEsc3{
+        display: none;
+    }
+
+    /* ABOUT US SECTION */
+    .section1Sml{
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+    .div2small{
+        width: 100%;
+        margin: 0;
+        padding: 5rem 0;
+        border-radius: 0;
+        height: auto;
+        background-position: center;
+    }
+    .narrowSml{
+        height: 100%;
+
+    }
+    #about-a{
+        text-align: center;
+    }
+    
+    /* CONTACT SECTION */
+    .email, .phone, .facebook{
+        display: flex;
+        justify-content: left !important;
+        align-items: center;
+        text-align: left;
+    }
+    .email i, .phone i, .facebook i{
+        margin-right: 0.5rem;
+    }
+    
+     
+    
+    .spanSml{
+        display: block;
+    }
+    .contactIcons{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contactIcons > div{
+        justify-content: center;
+    }
+    .contactIcons i{
+        font-size: 2rem;
+        border: none;
+    }
+    .contactIcons p{
+        font-size: 1.2rem;
+    }
+    .map{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+    .map a{
+        font-size: 1rem;
+
+    }
+    .map p{
+        margin-bottom: 2rem;
+    }
+    .mapTxt{
+        border-radius: 0;
+        
+    }
+    .mapTxt iframe{
+        width: 100%;
+        border-radius: 0;
+    }
+    .findus h1{
+        font-size: 2rem;
+    }
+    .members{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .member{
+        margin-bottom: 2rem;
+    }
+
+    /* TEAM SECTION */
+    .sectionteam{
+        padding-top: 2rem;
+    }
+    .teamsection{
+        flex-direction: column;
+    }
+    .teamsection img{
+        height: 150px;
+        width: 150px;
+    }
+    .albert, .vanessa{
+        padding: 0;
+    }
+    .albert h2, .vanessa h2{
+        font-size: 2rem;
+    }
+    .todaysteam{
+        margin-top: 6rem;
+    }
+    .todaysteam h2{
+        font-size: 1.5rem;
+    }
+
+    /* DONATIONS SECTION */
+    .sectiondonation{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 5rem;
+        border-radius: 0;
+        height: auto;
+        text-align: center;
+        
+    }
+    .sectiondonation p{
+        text-align: center;
+    }
+    .sectiondonation > div{
+        flex: 1;
+        padding: 0;
+    }
+    .sectiondonation > div h3{
+        font-size: 1.2rem;
+    }
+
+
+    /* ESC SECTION */
+    .sectionesc{
+        flex-direction: column;
+    }
+    .imgEsc{
+        float: left;
+        width: 100%;
+        margin-top: 0;
+        object-fit: cover;
+    }
+    .rightEsc1{
+        order: 2;
+    }
+    .section3esc{
+        padding-top: 15%;
+    }
+    .imgEsc2{
+        display: none;
+    }
+    .narrowTxtEsc{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #apply-a{
+        width: 100%;
+        text-align: center;
+    }
+    .sectionEscPro1{
+        flex-direction: column;
+    }
+    .sectionEscPro{
+        width: 100%;
+        margin-left: 0;
+    }
+    .sectionEscPro1 video{
+        margin-top: 0;
+        
+    }
+    .sectionEscPro .left{
+        padding-top: 5rem;
+    }
+    .rightpro{
+        padding-left: 0;
+    }
+    .sectionEscPro iframe{
+        width: 90vw;
+    }
+    .img5{
+        display: inline;
+        width: 90vw;
+    }
+    .gallery img{
+        width: 90% !important;
+        margin-left: 5%;
+    }
+
+    /* PROJECTS SECTION */
+
+    .align{
+        display: flex;
+        flex-direction: column;
+    }
+    .align> div{
+        width: 100%;
+        margin-top: 5rem;
+    }
+    #contact-pro{
+        position: relative;
+        float: left;
+        margin-top: -10rem;
+
+    }
+
+    /* ESC SECTION */
+    
+    .sectionesc span{
+        display: block;
+        font-size: 2rem !important;
+    }
+    iframe{
+        width: 90vw;
+        
+    }
+    .rightpro{
+        text-align: left;
+        order: 2;
+        
+    }
+    .testimonials{
+        padding: 0;
+        margin-top: 2rem;
+    }
+    .imgEsc, .imgEsc2, .imgEscM{
+        margin-top: 1rem !important;
+    }
+    
+}
+
+@media screen and (max-width: 1366px){
+    h1{
+        font-size: 1.8rem !important;
+    }
+    h2{
+        font-size: 1.5 !important;
+    }
+    p{
+        font-size: 1.1rem !important;
+    }
+    .sectionesc span{
+        font-size: 5rem;
+    }
+    .nav-links a{
+        font-size: 1.1rem;
+    }
+    #logoesc, #logo{
+        height: 2rem;
+    }
+    .map{
+        flex-direction: column;
+    }
+    .map p{
+        margin-bottom: 2rem;
+    }
+    .openmap{
+        font-size: 1.2rem;
+    }
+    .members{
+        justify-content: space-between;
+        padding: 0 7.5%;
+    }
+    .contactIcons i{
+        font-size: 3rem;
+    }
+    .cover-1 h1{
+        font-size: 3rem !important;
+    }
+    .cover-1 h2{
+        font-size: 1.6rem;
+    }
+    .cover-2 i{
+        bottom: 0;
+    }
+    .align h2{
+        font-size: 1.8rem;
+    }
+    
+    .gallery img{
+        width: 12rem;
+    }
+    .gallery{
+        flex: 5;
+    }
+    .center{
+        font-size: 1.8rem;
+    }
+    .div2small{
+        margin-top: 0;
+        background-repeat: no-repeat;
+        background-position: 0;
+    }
+    section{
+        height: auto;
+    }
+    .imgEsc, .imgEsc2{
+        max-height: 50rem;
+        margin-top: 5rem;
+    }
+    .sectionEsc2 h2{
+        font-size: 1.6rem;
+    }
+    .imgEscM{
+        margin-top: 7rem;
+    }
+    #statute-a{
+        font-size: 1.2rem;
+    }
+    .todaysteam h2{
+        font-size: 1.6rem;
+    }
+    .albert h2, .vanessa h2{
+        font-size: 2rem;
+    }
+    .contact-button a{
+        font-size: 1.6rem;
+    }
+    .albert, .vanessa{
+        padding: 5%;
+    }
+    
+    .sectionEscPro1{
+        flex-direction: column;
+    }
+    .rightpro{
+        order: 2;
+    }
+    .img-gallery{
+        padding: 0%;
+    }
+    .enesproject{
+        flex-direction: column;
+    }
+    .enesproject .right{
+        padding-top: 5%;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+    
+}
+@media screen and (max-width: 1482px){
+    .map{
+        flex-direction: column;
+        text-align: center;
+    }
+    .map iframe{
+        width: 100%;
+    }
+    .map p{
+        margin-bottom: 2rem;
+    }
+    .gallery img{
+        width: 100%;
+    }
+    .img-gallery{
+        flex-direction: column;
+        padding: 0;
+    }
+    .img-gallery img{
+        width: 22%;
+    }
+}
+@media screen and (max-width: 1636px){
+    .div2small{
+        background-position: 0;
+    }
+}
+    

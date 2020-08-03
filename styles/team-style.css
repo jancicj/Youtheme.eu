@@ -1,0 +1,90 @@
+.div2{
+    padding-top: 0;
+}
+.team-pics{
+    display: flex;
+    justify-content: center;
+    
+}
+.narrowTxt{
+    margin-bottom: 3rem;
+}
+.team-pics img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    object-position: top;
+    margin: 0 2rem;
+    border-radius: 50%;
+}
+.section1{
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.section1 strong{
+    color: #fc674c;
+}
+.section2{
+    padding-top: 0;
+}
+.left{
+    padding-top: 0;
+    text-align: center;
+}
+.right{
+    text-align: center;
+}
+.right p{
+    text-align: justify;
+}
+
+/* TEAM SECTION */
+.teamsection{
+    height: auto;
+    flex-direction: row;
+}
+.teamsection img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+.teamsection h2{
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    color: #fc674c;
+}
+.contact-button{
+    text-align: center;
+    padding-top: 5rem;
+}
+.contact-button a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+    background-color: #FEB414;
+    box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
+    transition: 0.2s ease-in;
+}
+.contact-button a:hover{
+    box-shadow: none;
+    transition: 0.2s ease-in;
+}
+.left, .right{
+    padding: 0 7rem;
+}
+
+/* TODAYS TEAM */
+.todaysteam{
+    text-align: center;
+}
+.todaysteam h2{
+    font-size: 2rem;
+}
+.todaysteam h3{
+    color: #fc674c;
+    font-size: 1.7rem;
+}

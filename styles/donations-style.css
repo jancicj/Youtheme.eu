@@ -1,0 +1,45 @@
+section{
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 2.5rem;
+    margin-top: 1.5rem;
+}
+.left{
+    
+    padding-left: 5%;
+    padding-right: 15rem;
+    flex: 1;
+    
+}
+.section1 h2{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+.section1 p, .section1 h3{
+    color: black;
+}
+.right{
+    text-align: justify;
+}
+strong{
+    color: #FEB414;
+}
+
+a:hover{
+    opacity: 80%;
+}
+.section1 i{
+    font-size: 5rem;
+}
+.center{
+    text-align: center;
+}
+.section1 i:hover{
+    opacity: 80%;
+}
+.right hr{
+    border: 2px solid black;
+    width: 7rem;
+    margin-left: 1rem;
+}

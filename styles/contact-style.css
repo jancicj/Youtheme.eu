@@ -1,0 +1,142 @@
+.section1{
+    flex-direction: column;
+    height: auto;
+}
+.narrowTxt{
+    text-align: center;
+    margin-top: 0;
+}
+.narrowTxt h1{
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2rem;
+}
+/* YOUTHEME colors */
+#t1{
+    color: #5DBCD2;
+    margin-left: 0.5rem;
+}
+#t2{
+    color: #35D825;
+}
+#t3{
+    color: #FEB414;
+}
+#t4{
+    color: #8619FD;
+}
+#t5{
+    color: #0AD5F6;
+}
+#t6{
+    color: #F3CD15;
+}
+#t7{
+    color: #1D6AF7;
+}
+#t8{
+    color: #FE401D;
+}
+span{
+    letter-spacing: -0.5rem;
+}
+
+/* ************* */
+.narrowTxt h2{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.contactIcons{
+    text-align: center;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+.contactIcons i{
+    font-size: 5rem;
+    color: #fc674c;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: 2px solid #fc674c;
+    border-top: 2px solid transparent;
+    transition-duration: 0.2s;
+}
+.section1 a{
+    text-decoration: none;
+    color: black;
+}
+.section1 a:hover{
+    opacity: 80%;
+}
+.contactIcons p{
+    font-size: 1.5rem;
+}
+.contactIcons i:hover{
+    border: 2px solid #fc674c;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+}
+.mapTxt{
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 5rem;
+    padding-top: 2rem;
+    border-radius: 2.5rem;
+}
+.findus{
+    font-size: 2rem;
+    color: #5DBCD2;
+}
+.map{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 5%;
+    justify-content: space-around;
+}
+.map iframe{
+    border-radius: 2.5rem;
+    float: left;
+}
+.map p{
+    margin-top: 2rem;
+    margin-bottom: 20rem;
+}
+.openmap{
+    background-color: #5DBCD2;
+    padding: 12px 36px;
+    border-radius: 2.5rem;
+    font-size: 2rem;
+    transition-duration: 0.3s;
+}
+.openmap:hover{
+    color: white;
+    transition-duration: 0.3s;
+}
+/* MEMEBERS */
+.members{
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.member img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+    object-fit: cover;
+}
+.specific{
+    margin-top: 5rem;
+}
+.specific hr{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 1rem;
+}

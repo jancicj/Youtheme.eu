@@ -1,0 +1,203 @@
+.cover{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(/img/cover2.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 5rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+header{
+    
+    border-radius: 2.5rem;
+    position: fixed;
+    width: 100%;
+}
+header a{
+    color: #FEB414;
+}
+
+.cover-1{
+    flex: 1;
+    margin-top: 7%;
+    width: 100%;
+}
+.cover-1 h1{
+    font-size: 4rem;
+    color: #F1FAEE;
+    padding: 2rem 0;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+}
+.cover h2{
+    color: #F1FAEE;
+    font-size: 2rem;
+}
+.youtheme{
+    font-weight: 900;
+}
+
+.cover-2{
+    flex: 1;
+    padding-top: 5%;
+}
+.button-a{
+    margin: 0 1.5rem;
+}
+
+/* TITLE COLORS */
+#t1{
+    color: #5DBCD2;
+}
+#t2{
+    color: #35D825;
+}
+#t3{
+    color: #FEB414;
+}
+#t4{
+    color: #8619FD;
+}
+#t5{
+    color: #0AD5F6;
+}
+#t6{
+    color: #F3CD15;
+}
+#t7{
+    color: #1D6AF7;
+}
+#t8{
+    color: #FE401D;
+}
+
+.cover-2 i{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate( -50%, 0);
+    display: block;
+    font-size: 2rem;
+    color: #F1FAEE;
+    animation: upDown 1s ease-in-out infinite;
+    
+}
+@keyframes upDown {
+    0%{
+        bottom: 0;
+    }
+    50%{
+        bottom: 2rem;
+    }
+    100%{
+        bottom: 0;
+    }
+}
+
+
+/* SECTION 1 */
+.section1{
+    height: auto;
+}
+.img1{
+    width: 80%;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: 2.5rem;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    object-position: center -6rem;
+}
+
+
+/* SECTION 2 */
+.section2{
+    height: auto;
+}
+
+.img2{
+    width: 80%;
+    height: 25rem;
+    border-radius: 2.5rem;
+    margin-top: 2rem;
+    object-fit: cover;
+    float: left;
+    margin-left: 5rem;
+}
+.projects-text a{
+    text-decoration: none;
+    color: #0AD5F6;
+    
+}
+
+/*SECTION 3 */
+.section3{
+    height: auto;
+}
+.img3{
+    width: 80%;
+    height: 85%;
+    border-radius: 2.5rem;
+    object-fit: cover;
+}
+#right3{
+    text-align: center;
+    order: 1;
+}
+/* SECTION 4 */
+.section4{
+    height: auto;
+    
+    text-align: center;
+}
+.div2{
+    width: 100%;
+}
+.narrowTxt{
+    text-align: center;
+}
+/* SECTION 4 */
+.section5{
+    height: auto;
+}
+#benefits{
+    font-size: 1.2rem;
+    display: inline;
+}
+.section5 .left{
+    order: 2;
+}
+
+
+
+/* FOR JS ANIMATIONS */
+
+.section1{
+    opacity: 0;
+}
+.section2{
+    opacity: 0;
+}
+.section3{
+    opacity: 0;
+}
+.section3js{
+    opacity: 1;
+}
+.section5{
+    opacity: 0;
+}
+
+
+.js-appear{
+    opacity: 1;
+    transition: ease-in 1s;
+}
+
+.js-slide{
+    transform: translateX(0%);
+    transition: ease-in 1s;
+}
